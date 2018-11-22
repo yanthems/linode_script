@@ -10,13 +10,13 @@ mv go /usr/share/
 
 mkdir go
 
-cat >> ~/.bashrc
+cat <<EOF >> ~/.bashrc
 
 export GOROOT=/usr/share/go
 export PATH=$GOROOT/bin:$PATH
 export GOPATH=~/go
 
-<<EOF
+EOF
 
 . ~/.bashrc
 
