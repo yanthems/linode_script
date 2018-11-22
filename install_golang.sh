@@ -8,16 +8,16 @@ tar -zxf go1.11.2.linux-amd64.tar.gz
 
 mv go /usr/share/
 
-mkdir go
+mkdir ~/go
 
 cat <<EOF >> ~/.bashrc
 
 export GOROOT=/usr/share/go
-export PATH=$GOROOT/bin:$PATH
+export PATH=\$GOROOT/bin:\$PATH
 export GOPATH=~/go
 
 EOF
 
-. ~/.bashrc
+source ~/.bashrc
 
 go version
