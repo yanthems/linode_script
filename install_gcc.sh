@@ -21,3 +21,11 @@ make
 
 #make install
 
+apt remove gcc
+
+apt-get autoremove
+
+make install
+
+gcc --version
+
