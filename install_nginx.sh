@@ -16,9 +16,20 @@ apt install libpcre3-dev
 
 apt install libssl-dev
 
-./configure --add-module=./nginx-rtmp-module
+#./configure --add-module=./nginx-rtmp-module
+
+./configure --add-module=./nginx-rtmp-module --with-cc-opt="-Wimplicit-fallthrough=0"
 
 make
 
 make install
 
+
+cat <<EOF >> ~/.bashrc
+
+export NGINX_ROOT=/usr/local/nginx
+export PATH=\$PATH:\$NGINX_ROOT/sbin
+
+EOF
+
+source ~.bashrc
