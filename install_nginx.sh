@@ -4,7 +4,7 @@ wget https://nginx.org/download/nginx-1.15.6.tar.gz
 
 tar -zxf nginx-1.15.6.tar.gz
 
-cd nginx-1.15.6.tar.gz
+cd nginx-1.15.6
 
 git clone https://github.com/arut/nginx-rtmp-module.git
 
