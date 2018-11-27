@@ -42,3 +42,11 @@ gcc --version
 #
 #See any operating system documentation about shared libraries for
 #more information, such as the ld(1) and ld.so(8) manual pages.
+
+apt-add-repository ppa:ubuntu-toolchain-r/test
+
+apt-get update
+
+apt-get install -f
+
+apt-get upgrade
