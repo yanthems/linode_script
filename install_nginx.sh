@@ -8,7 +8,7 @@ cd nginx-1.15.6
 
 git clone https://github.com/arut/nginx-rtmp-module.git
 
-/usr/local/bin/gcc -s /usr/local/bin/cc
+ln /usr/local/bin/gcc -s /usr/local/bin/cc
 
 apt install libpcre3
 
@@ -32,4 +32,4 @@ export PATH=\$PATH:\$NGINX_ROOT/sbin
 
 EOF
 
-source ~.bashrc
+source ~/.bashrc
