@@ -1,3 +1,5 @@
 sudo add-apt-repository ppa:leaeasy/dde
 
-# deepin
+# deepin desktpo
+
+# sudo apt install dde dde-file-manager
