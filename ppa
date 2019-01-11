@@ -3,3 +3,12 @@ sudo add-apt-repository ppa:leaeasy/dde
 # deepin desktpo
 
 # sudo apt install dde dde-file-manager
+
+#增加apt源
+#deb http://mirrors.aliyun.com/deepin/ precise main
+#更新apt仓库
+#sudo apt-get update
+#搜索deepin商店名称
+#sudo apt-cache search deepin-software
+#安装deepin商店
+#sudo apt-get install deepin-software-center
